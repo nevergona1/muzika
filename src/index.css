@@ -1,0 +1,38 @@
+body {
+  background-color: #f2f2f2; /* Используйте более светлый серый цвет */
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  height: 100vh;
+}
+
+.music-player-container {
+  background-color: #ffffff; /* Цвет фона прямоугольника */
+  border-radius: 10px; /* Задаем радиус закругления углов */
+  padding: 20px; /* Добавляем отступ внутри прямоугольника */
+  width: 50%; /* Ширина прямоугольника - половина экрана */
+  margin: 0; /* Убираем отступы слева и справа */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.play-pause-button {
+  background-color: #3498db; /* Цвет фона кнопки */
+  color: #ffffff; /* Цвет текста кнопки */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.track-info {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.volume-slider {
+  width: 50%;
+}
