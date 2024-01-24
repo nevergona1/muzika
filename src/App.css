@@ -1,6 +1,14 @@
 .App {
   text-align: center;
+  background-image: url('./фон.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Добавлено для фиксации фона на экране */
+  min-height: 100vh; /* Чтобы фон занимал всю высоту видимой области */
+  margin: 0;
+  padding: 0;
 }
+
 
 .App-logo {
   height: 40vmin;
